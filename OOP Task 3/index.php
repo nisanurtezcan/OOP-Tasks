@@ -13,7 +13,7 @@
         .bar {
             width: 20px;
             margin-right: 5px;
-            background-color: plum;
+            background-color: paleturquoise;
             transition: height 0.5s;
         }
 
@@ -34,7 +34,7 @@
 </head> 
 <body> 
  
-<h1>3x + 1 Collatz Problem Calculation</h1> 
+<h1>3x + 1 Collatz Problem Calculator</h1> 
  
 <h2>Calculation of Only One Number</h2> 
 <form method="get" action=""> 
@@ -100,7 +100,7 @@ if (isset($_GET["start"]) && isset($_GET["end"])) {
 <br>
 <hr />
 
-<h2>Arithmetic Progression</h2> 
+<h2>Calculation of Arithmetic Progression</h2> 
  
 <form action="./" method="GET"> 
     <label for="fst">First Term:</label> 
